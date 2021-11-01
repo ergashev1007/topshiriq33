@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+caption{
+    font-size: 35px;
+    background-color: rgb(25, 112, 146);
+    color: black;
+}
+tr{
+    font-size: 25px;
+    background-color: blue;
+    color: black;
+}
+
+
+
+
+
+
+@media all and (max-width: 500px){
+    body{
+        background-color: cadetblue;
+        
+        
+    }
+    caption{
+        font-size: 25px;
+        /* height: 100%; */
+        background-color: chartreuse;
+        color:black;
+    }
+    tr{
+        font-size: 25px;
+        background-color:rgb(175, 99, 99);
+        color: black;
+        
+
+    }
+
+}
